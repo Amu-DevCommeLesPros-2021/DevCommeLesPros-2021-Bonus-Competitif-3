@@ -19,7 +19,7 @@ Pour ce faire, il faut éteindre une partie de l'ensemble de nos panneaux solair
 Il faut se garder un maximum de puissance disponible.
 Nous avons toute une matrice de panneaux solaires et il faudra l'analyser rangée par rangée pour savoir quels panneaux désactiver.
 
-Il s'agira donc d'implémenter une fonction qui, donnée un ensemble de valeurs représentant chacune la puissance d'un panneau solaire, renvoie le **produit** maximum d'un sous-ensemble non vide des ces valeurs.
+Il s'agira donc d'implémenter une fonction qui, donnée un ensemble de valeurs représentant chacune la puissance d'un panneau solaire, renvoie le **produit** maximum d'un sous-ensemble non vide de ces valeurs.
 
 Deux exemples :
 
@@ -27,9 +27,9 @@ Deux exemples :
 - `f([-2, -3, 4, -5]) == 60`
 
 Chaque ensemble de panneaux solaires contient au moins un panneau et au plus 10 panneaux.
-Chaque panneau à une puissance variant de -10 à 10.
-En effet, certains panneaux sont si affecté qu'ils drainent de la puissance !
-Mais, en bon ingénieur, vous avez trouvé comment combiner deux panneaux à puissance négative pour en tirer une puissance positive égal au produit de leurs valeurs.
+Chaque panneau a une puissance variant de -10 à 10.
+En effet, certains panneaux sont si affectés qu'ils drainent de la puissance !
+Mais, en bon ingénieur, vous avez trouvé comment combiner deux panneaux à puissance négative pour en tirer une puissance positive égale au produit de leurs valeurs.
 
 ## Objectif
 
@@ -38,10 +38,10 @@ Implémentez dans le fichier `main.c` le corps de la fonction `maximum_power` de
 Comprenez que les tests que vous voyez dans le fichier `main.c` ne sont que les tests les plus évidents.
 Votre code devra passer aussi *12* autres tests secrets.
 Ce ne sont pas des tests invalides ou des attrape-nigauds sans fondement.
-Ces tests secrets existent pour tester tous les cas spéciaux du problème et confirmer que vous ayez bien envisagé toutes les subtilités.
+Ces tests secrets existent pour tester tous les cas spéciaux du problème et confirmer que vous avez bien envisagé toutes les subtilités.
 
 Si vous croyez avoir du code qui répond à toutes les exigences, contactez-moi vite !
 Je vous ferai part du nombre de tests secrets que votre programme passe avec succès.
 
-Dans le cas où votre programme ne passent pas à 100% les tests, *vous devrez attendre 24 heures avant de me re-soumettre une solution.*
+Dans le cas où votre programme ne passe pas à 100% les tests secrets, *vous devrez attendre 24 heures avant de me re-soumettre une solution.*
 Soyez sûr de vous !
