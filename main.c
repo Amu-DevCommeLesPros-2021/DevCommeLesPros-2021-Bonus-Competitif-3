@@ -2,6 +2,9 @@
 
 #include <stddef.h>
 
+int const tests_total = 2;
+int const test_column_width = 40;
+
 int maximum_power(int panels[], size_t const size_panels)
 {
     return 0;
